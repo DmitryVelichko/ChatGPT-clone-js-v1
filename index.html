@@ -2,12 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>JS ChatGPT Clone</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <section class="side-bar">
+      <button>New Chat</button>
+      <div class="history"></div>
+      <div class="nav">
+        <p>Made By Di</p>
+      </div>
+    </section>
+    <section class="main">
+      <h1>ChatGPT</h1>
+      <p id="output"></p>
+      <div class="bottom-section">
+        <div class="input-container">
+          <input />
+          <div id="submit"></div>
+        </div>
+      </div>
+      <p class="info">
+        Chat GPT Mar 14 Version. Free Research Preview. Our goal is to make AI
+        systems more natural and safe to interact with. Your feedback will help
+        us improve.
+      </p>
+    </section>
+    <script src="app.js"></script>
   </body>
 </html>
